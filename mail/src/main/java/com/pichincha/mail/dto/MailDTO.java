@@ -51,4 +51,10 @@ public class MailDTO implements Serializable {
 		this.timeToLifeSec = timeToLifeSec;
 	}
 
+	@Override
+	public String toString() {
+		return "MailDTO [message=" + message + ", to=" + to + ", from=" + from + ", timeToLifeSec=" + timeToLifeSec
+				+ "]";
+	}
+
 }
